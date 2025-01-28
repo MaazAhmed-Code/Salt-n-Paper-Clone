@@ -36,8 +36,6 @@ div ul li {
         color: white;
         border: 1px solid white;
 }
-
-
 .sec2{
     background-color: #000000;
     color: white;
@@ -62,8 +60,6 @@ div ul li {
     color: white;
     border: 1px solid white;
 }
-
-
 
 .section3{
     text-align: center;
@@ -94,7 +90,6 @@ div ul li {
         border: 1px solid white;
 }
 
-
 .section4{
     padding: 30px 0; 
     background-color: #0F0F0F;
@@ -116,7 +111,6 @@ div ul li {
     color: white;
     border: 1px solid white;
 }
-
 
 .section5{
     padding: 30px 0; 
@@ -141,7 +135,6 @@ div ul li {
     color: white;
     border: 1px solid white;
 }
-
 
 .section6{    
     padding: 30px 0; 
@@ -170,7 +163,6 @@ div ul li {
     margin: 30px 0;
 }
 
-
 .section7{
     background-color: #000000;
     padding: 10px 0;
@@ -190,7 +182,6 @@ div ul li {
 .sec7imgs::-webkit-scrollbar {
     display: none;
 }
-
 
 .sfooter {
     background-color: #0F0F0F;
@@ -254,10 +245,7 @@ div ul li {
     text-decoration: none;
 }
 
-
-
-@media(max-width: 768px){
-
+@media(max-width: 968px){
     .sec2i{
         display: flex;
         flex-direction: column;
@@ -268,7 +256,6 @@ div ul li {
         width: 50%;
         padding: 30px 0;
     }
-
     .sec3i{
         margin: 80px 0;
     }
@@ -306,7 +293,7 @@ div ul li {
         margin-top: 50px;
     }
 }
-@media(max-width: 600px){
+@media(max-width: 700px){
     .snav{
         display: block;
         background-color: #000000;
@@ -316,7 +303,6 @@ div ul li {
     .slogo{
         text-align: center;
     }
-    
     .sec2i{
         display: flex;
         flex-direction: column;
@@ -327,13 +313,47 @@ div ul li {
         width: 80%;
         padding: 20px 0;
     }
-    .sec3{
+    .sec3{  
         display: block;
+        overflow: hidden;
     }
     .sec3i{
         display: block;
+        gap: 20px;
+        overflow: hidden;
     }
     .sec3text{
         text-align: center;
     }
+}
+@media (max-width: 450px) {
+    .sec2i{
+        display: flex;
+        flex-direction: column;
+        padding-left: 60px;
+    }
+    
+.smenubtn1{
+        margin: 10px 0;
+        padding: 5px 5px;
+        border-radius: 30px;
+        background-color: #000000;
+        color: white;
+        border: 1px solid white;
+}
+.smenubtn2{
+        margin: 10px 0;
+        padding: 5px 5px;
+        border-radius: 30px;
+        background-color: #ED1C24;
+        color: white;
+        border: 1px solid white;
+}
+.smenu{
+    display: block; 
+    text-align: center;
+}
+div ul li {
+    padding-left: 50px;
+}
 }
